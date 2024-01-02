@@ -1,0 +1,95 @@
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav li{
+   list-style: none;
+   
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    
+    
+    
+}
+nav ul{
+    display: flex;
+}
+/* body related style */
+body{
+    background: url(bg3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+/* header related style */
+.header{
+    padding: 0 50px;
+}
+.about{
+  margin: 150px 30px 30px 0px ;
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+.content-title{
+    font-size: 25px;
+    color:#fff;
+
+}
+.content-des{
+    color: #fff;
+    
+}
+.content-button{
+      border-radius: 10px; 
+      border: 5 solid;
+      padding: 3px 15px;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+      overflow: hidden;
+    
+    
+}
+.panel-title{
+    color: #fff;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.about-form input{
+   margin-top: 10px;
+   border-radius: 10px;
+   padding: 3px 15px;
+   background: transparent;
+   border: 5 solid;
+   color: #fff;
+
+
+
+}
+.frm-btn{
+    width: 200px;
+    padding: 3px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 255, 255, 0.298);
+}
+.sub-hex{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.cpr-title{
+    text-align: center;
+    color: white;
+    font-size: small;
+    margin-top: 70px;
+    
+  
+}
